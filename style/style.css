@@ -28,6 +28,11 @@ input,button{
     font-family: 'vazir';
 }
 
+.align-items{
+    align-items: center;
+    justify-content: space-between;
+}
+
 .container{
     width: 80vw;
     margin: auto;
@@ -43,6 +48,7 @@ header{
     width: 100%;
     height: 10vh;
     background: #000;
+    flex-wrap: wrap;
 }
 
 header .navbar{
@@ -120,4 +126,32 @@ header .navbar .social button:hover{
     background-color: #c00;
     color: #000;
     background: linear-gradient(to left bottom,#ffffff 50%,#c8c8c8 50%);
+}
+
+.ads{
+     width: 100%;
+     height: 15vh;
+     background: #222;
+}
+
+.ads .banner{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.ads .banner img{
+    width: 100%;
+}
+
+.ads .logo{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ads .logo img{
+    width: 60px;
 }
