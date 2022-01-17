@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>فروشگاه اشکان</title>
 </head>
 
@@ -14,41 +16,91 @@
                <div class="row">
                    <div class="navbar">
                        <div class="menu">
-                           <ul>
-                               <li><a href="#">خانه<i class="fas fa-home"></i></i></a></li>
-                               <li><a href="#">محصولات<i class="fas fa-shopping-cart"></i></a></li>
-                               <li><a href="#">سبد خرید<i class="fas fa-credit-card"></i></a></li>
-                               <li><a href="#">اخرین مطالب<i class="fas fa-blog"></i></a></li>
-                               <li><a href="#">درباره ما<i class="fas fa-address-card"></i></a></li>
-                               <li><a href="#">تماس با ما<i class="fas fa-mobile-alt"></i></a></li>
-                           </ul>
-                       </div>
-                       <div class="social">
-                           <ul>
-                           <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                           <li>
-                               <a href="#"><i class="fas fa-user"></i></a>
-                               <ul>
-                                   <li><a href="#">ثبت نام</a></li>
-                                   /
-                                   <li><a href="#">ورود</a></li>
-                               </ul>
-                        
-                        </li>
-                           <li><a href="#"><i class="fas fa-search"></i></a></li>
-                           </ul>
-                           <button>درخواست محصول</button>
-                       </div>
-                   </div>
-                
-               </div>
-           </div>
+                           <ul id="navbar-list">
+						        <div class="close-icon">
+								  <i class="fas fa-times"></i>
+								</div>
+                               <li><a href="#">خانه<i class="fas fa-home"></i></a></li>
+                               <li id="dropdown">
+							   <a href="#">محصولات<i class="fas fa-shopping-cart"></i></a>
+							   
+							   <ul class="mega-menu">
+                                    <li>
+                                        <h2>مردانه</h2>
+                                        <ul>
+                                            <li><a href="">کت و شلوار</a></li>
+                                            <li><a href="">لباس مجلسی</a></li>
+                                            <li><a href="">عینک های برند</a></li>
+                                            <li><a href="">عطرهای مجبوب</a></li>
+                                            <li><a href="">موزر</a></li>
+                                        </ul>
+                                    </li>
+									<li>
+									   <h2>زنانه</h2>
+									 <ul>
+                                        <li><a href="">لباس های مجلسی</a></li>
+                                        <li><a href="">ساعت های برند</a></li>
+                                        <li><a href="">عینک های لوکس</a></li>
+                                        <li><a href="">عطرهای ناب</a></li>
+                                        <li><a href="">کیف مجلسی</a></li> 
+                                     </ul>
+                                    </li>	
+                                      <li>
+                                        <h2>بچگانه</h2>
+                                        <ul>
+                                            <li><a href="">لباس</a></li>
+                                            <li><a href="">اسباب بازی</a></li>
+                                            <li><a href="">ساعت</a></li>
+                                            <li><a href="">بهداشتی</a></li>
+                                            <li><a href="">کیف</a></li>
+                                        </ul>
+                                    </li>									
+                                       <li>
+                                        <img src="images/6.jpg" alt="">
+                                    </li>
+                                </ul>
+								 </li>
+                            <li><a href="#">سبد خرید <i class="fas fa-credit-card"></i></a></li>
+                            <li><a href="#"> بلاگ <i class="fas fa-blog"></i></a></li>
+                            <li><a href="#">درباره ما <i class="fas fa-address-card"></i></a></li>
+                            <li><a href="#">تماس با ما <i class="fas fa-mobile-alt"></i></a></li>
+                        </ul>
+						
+						<div class="hamburger">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li>
+                                <a href="#"><i class="fas fa-user"></i></a>
+                                <ul>
+                                    <li><a href="#">ثبت نام</a></li>
+                                    /
+                                    <li><a href="#">ورود</a></li>
+                                </ul>
+                            </li>
+                            <li class="search-form"><a href="#"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <button>درخواست محصول</button>
+                    </div>
+                </div>
+				
+				<div class="search">
+                    <form action="">
+                        <input type="text" placeholder="جستجو کنید">
+                        <input type="submit" value="جستجو">
+                    </form>
+                </div>
 
-           
-           <div class="ads">
+            </div>
+        </div>
+
+        <div class="ads">
             <div class="container">
                 <div class="row align-items">
                     <div class="banner">
@@ -61,12 +113,42 @@
             </div>
         </div>
 
-       </header>
+    </header>
+	
+	
+	<section class="slider">
+        <div class="slider-item">
+            <div class="item active">
+                <div class="img" style="background-image: url('images/slider1.jpg');">
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url('images/slider2.jpg');">
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url('images/slider3.jpg');">
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
+                </div>
+            </div>
+        </div>
+		
+		<div class="controls">
+            <div class="next"><i class="fas fa-chevron-right"></i></div>
+            <div class="prev"><i class="fas fa-chevron-left"></i></div>
+        </div>
 
-       
 
-      <script src="js/app.js"></script>
-      <script src="js/all.min.js"></script> 
-</body>
-
-</html>
+        <div class="progress"></div>
+    </section>
