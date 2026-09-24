@@ -1,630 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <title>فروشگاه اشکان</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="اشکان‌شاپ؛ فروشگاه آنلاین مدرن برای خرید پوشاک، کفش، ساعت، لوازم دیجیتال، آرایشی و محصولات منتخب با تجربه خرید سریع و ساده.">
+  <meta name="keywords" content="فروشگاه اینترنتی, خرید آنلاین, پوشاک, کفش, ساعت, لپ تاپ, لوازم آرایشی, اشکان شاپ">
+  <meta name="author" content="Ashkan Shop">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="اشکان‌شاپ | فروشگاه اینترنتی مدرن">
+  <meta property="og:description" content="محصولات منتخب، پیشنهادهای ویژه و تجربه خرید سریع در اشکان‌شاپ.">
+  <meta property="og:image" content="images/slider1.jpg">
+  <meta property="og:locale" content="fa_IR">
+  <link rel="canonical" href="./">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/vazir.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/responsive.css">
+  <title>اشکان‌شاپ | فروشگاه اینترنتی مدرن</title>
+  <script type="application/ld+json">{
+    "@context":"https://schema.org","@type":"WebSite","name":"اشکان‌شاپ","url":"./",
+    "potentialAction":{"@type":"SearchAction","target":"./?q={search_term_string}","query-input":"required name=search_term_string"}
+  }</script>
+  <script type="application/ld+json">{
+    "@context":"https://schema.org","@type":"Organization","name":"اشکان‌شاپ","logo":"images/logo.svg"
+  }</script>
 </head>
-
 <body>
- 
-       <header>
-           <div class="container">
-               <div class="row">
-                   <div class="navbar">
-                       <div class="menu">
-                           <ul id="navbar-list">
-						        <div class="close-icon">
-								  <i class="fas fa-times"></i>
-								</div>
-                               <li><a href="#">خانه<i class="fas fa-home"></i></a></li>
-                               <li id="dropdown">
-							   <a href="#">محصولات<i class="fas fa-shopping-cart"></i></a>
-							   
-							   <ul class="mega-menu">
-                                    <li>
-                                        <h2>مردانه</h2>
-                                        <ul>
-                                            <li><a href="">کت و شلوار</a></li>
-                                            <li><a href="">لباس مجلسی</a></li>
-                                            <li><a href="">عینک های برند</a></li>
-                                            <li><a href="">عطرهای مجبوب</a></li>
-                                            <li><a href="">موزر</a></li>
-                                        </ul>
-                                    </li>
-									<li>
-									   <h2>زنانه</h2>
-									 <ul>
-                                        <li><a href="">لباس های مجلسی</a></li>
-                                        <li><a href="">ساعت های برند</a></li>
-                                        <li><a href="">عینک های لوکس</a></li>
-                                        <li><a href="">عطرهای ناب</a></li>
-                                        <li><a href="">کیف مجلسی</a></li> 
-                                     </ul>
-                                    </li>	
-                                      <li>
-                                        <h2>بچگانه</h2>
-                                        <ul>
-                                            <li><a href="">لباس</a></li>
-                                            <li><a href="">اسباب بازی</a></li>
-                                            <li><a href="">ساعت</a></li>
-                                            <li><a href="">بهداشتی</a></li>
-                                            <li><a href="">کیف</a></li>
-                                        </ul>
-                                    </li>									
-                                       <li>
-                                        <img src="images/6.jpg" alt="">
-                                    </li>
-                                </ul>
-								 </li>
-                            <li><a href="#">سبد خرید <i class="fas fa-credit-card"></i></a></li>
-                            <li><a href="#"> بلاگ <i class="fas fa-blog"></i></a></li>
-                            <li><a href="#">درباره ما <i class="fas fa-address-card"></i></a></li>
-                            <li><a href="#">تماس با ما <i class="fas fa-mobile-alt"></i></a></li>
-                        </ul>
-						
-						<div class="hamburger">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="social">
-                        <ul>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li>
-                                <a href="#"><i class="fas fa-user"></i></a>
-                                <ul>
-                                    <li><a href="#">ثبت نام</a></li>
-                                    /
-                                    <li><a href="#">ورود</a></li>
-                                </ul>
-                            </li>
-                            <li class="search-form"><a href="#"><i class="fas fa-search"></i></a></li>
-                        </ul>
-                        <button>درخواست محصول</button>
-                    </div>
-                </div>
-				
-				<div class="search">
-                    <form action="">
-                        <input type="text" placeholder="جستجو کنید">
-                        <input type="submit" value="جستجو">
-                    </form>
-                </div>
+<a class="skip-link" href="#main">پرش به محتوای اصلی</a>
+<div class="top-strip"><div class="container top-strip__inner"><span><i class="fas fa-truck"></i> ارسال سریع و پیگیری سفارش</span><span><i class="fas fa-shield-alt"></i> خرید امن و ضمانت بازگشت</span><span class="top-strip__desktop"><i class="fas fa-headset"></i> پشتیبانی هر روز هفته</span></div></div>
 
-            </div>
-        </div>
+<header class="site-header">
+  <div class="container header-main">
+    <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="باز کردن منو"><i class="fas fa-bars"></i></button>
+    <a class="brand" href="index.html" aria-label="اشکان‌شاپ - صفحه اصلی"><img src="images/logo.svg" alt="لوگوی اشکان‌شاپ"></a>
+    <div class="header-search" role="search">
+      <i class="fas fa-search"></i>
+      <input id="searchInput" type="search" placeholder="جستجوی محصول، برند یا دسته‌بندی..." autocomplete="off">
+      <button id="searchSubmit">جستجو</button>
+      <div class="search-suggestions" id="searchSuggestions" aria-live="polite"></div>
+    </div>
+    <div class="header-actions">
+      <button class="action-link" id="themeBtn" title="حالت تاریک" aria-label="تغییر حالت نمایش"><i class="fas fa-moon"></i></button>
+      <button class="action-link account-action" id="accountBtn" onclick="location.href='login.html'"><i class="fas fa-user-circle"></i><span>ورود / ثبت‌نام</span></button>
+      <button class="action-link" id="favoritesBtn" title="علاقه‌مندی‌ها" aria-label="علاقه‌مندی‌ها"><i class="far fa-heart"></i><b id="favoriteCount">0</b></button><button class="action-link cart-action" id="cartBtn"><i class="fas fa-shopping-bag"></i><span>سبد</span><b id="cartCount">0</b></button>
+    </div>
+  </div>
+  <nav class="main-nav" id="mainNav" aria-label="منوی اصلی">
+    <div class="container nav-inner">
+      <button class="categories-btn" id="categoriesBtn"><i class="fas fa-bars"></i> دسته‌بندی کالاها <i class="fas fa-chevron-down"></i></button>
+      <div class="nav-links">
+        <a class="active" href="index.html#home">خانه</a><a href="index.html#products">فروشگاه</a><a href="index.html#offers">تخفیف‌ها</a><a href="about.html">درباره ما</a><a href="index.html#why-us">چرا ما؟</a><a href="blog.html">مجله</a><a href="contact.html">تماس با ما</a>
+      </div>
+      <div class="nav-trust"><i class="fas fa-bolt"></i> پیشنهادهای لحظه‌ای</div>
+    </div>
+    <div class="mega-panel" id="megaPanel">
+      <div class="container mega-grid">
+        <div><h3>مد و پوشاک</h3><a data-category="men">مردانه</a><a data-category="women">زنانه</a><a data-category="child">بچگانه</a><a>اکسسوری</a></div>
+        <div><h3>دیجیتال</h3><a data-category="digital">لپ‌تاپ و دیجیتال</a><a>هدفون و صوتی</a><a>ساعت هوشمند</a><a>لوازم جانبی</a></div>
+        <div><h3>زیبایی</h3><a data-category="beauty">آرایشی و بهداشتی</a><a>عطر و ادکلن</a><a>مراقبت پوست</a><a>مراقبت مو</a></div>
+        <div class="mega-banner"><img src="images/6.jpg" alt="پیشنهاد ویژه اشکان‌شاپ" loading="lazy"><div><strong>انتخاب هوشمند</strong><span>محصولات محبوب این هفته</span></div></div>
+      </div>
+    </div>
+  </nav>
+</header>
 
-        <div class="ads">
-            <div class="container">
-                <div class="row align-items">
-                    <div class="banner">
-                        <img src="images/nav-banner.png" alt="">
-                    </div>
-                    <div class="logo">
-                        <img src="images/logo.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
+<main id="main">
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-slider" aria-label="پیشنهادهای ویژه">
+      <div class="slides" id="slides">
+        <article class="slide active" style="background-image:url('images/slider1.jpg')"><div class="slide-content"><span class="eyebrow">پیشنهاد ویژه امروز</span><h1>خریدی که<br><em>حس خوب</em> می‌سازد</h1><p>منتخب‌ترین محصولات را با پیشنهادهای جذاب و تجربه‌ای سریع پیدا کن.</p><button class="primary-btn" data-scroll="#products">مشاهده محصولات <i class="fas fa-arrow-left"></i></button></div></article>
+        <article class="slide" style="background-image:url('images/slider2.jpg')"><div class="slide-content"><span class="eyebrow">استایل جدید</span><h2>برای هر سلیقه،<br><em>یک انتخاب خاص</em></h2><p>از پوشاک تا اکسسوری، انتخاب‌های تازه منتظر تو هستند.</p><button class="primary-btn" data-category="women">خرید زنانه <i class="fas fa-arrow-left"></i></button></div></article>
+        <article class="slide" style="background-image:url('images/slider3.jpg')"><div class="slide-content"><span class="eyebrow">تکنولوژی</span><h2>هوشمندانه‌تر<br><em>انتخاب کن</em></h2><p>محصولات دیجیتال منتخب برای سبک زندگی امروز.</p><button class="primary-btn" data-category="digital">محصولات دیجیتال <i class="fas fa-arrow-left"></i></button></div></article>
+      </div>
+      <div class="slider-controls"><button id="prevSlide" aria-label="قبلی"><i class="fas fa-chevron-right"></i></button><div class="dots" id="sliderDots"></div><button id="nextSlide" aria-label="بعدی"><i class="fas fa-chevron-left"></i></button></div>
+    </div>
+    <div class="hero-side">
+      <a class="promo-card promo-one" href="#offers"><span>تا ۴۰٪ تخفیف</span><strong>پیشنهادهای<br>شگفت‌انگیز</strong><i class="fas fa-arrow-left"></i></a>
+      <a class="promo-card promo-two" href="#products"><span>جدیدترین‌ها</span><strong>محصولات<br>تازه رسیده</strong><i class="fas fa-arrow-left"></i></a>
+    </div>
+  </div>
+</section>
 
-    </header>
-	
-	
-	<section class="slider">
-        <div class="slider-item">
-            <div class="item active">
-                <div class="img" style="background-image: url('images/slider1.jpg');">
-                </div>
-                <div class="caption">
-                    <h1>از اینجا دست خالی بیرون نمیری</h1>
-                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="img" style="background-image: url('images/slider2.jpg');">
-                </div>
-                <div class="caption">
-                    <h1>از اینجا دست خالی بیرون نمیری</h1>
-                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="img" style="background-image: url('images/slider3.jpg');">
-                </div>
-                <div class="caption">
-                    <h1>از اینجا دست خالی بیرون نمیری</h1>
-                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
-                </div>
-            </div>
-        </div>
-		
-		<div class="controls">
-            <div class="next"><i class="fas fa-chevron-right"></i></div>
-            <div class="prev"><i class="fas fa-chevron-left"></i></div>
-        </div>
+<section class="container service-bar" aria-label="مزایای خرید">
+  <div><i class="fas fa-shipping-fast"></i><span><b>ارسال سریع</b><small>به سراسر کشور</small></span></div>
+  <div><i class="fas fa-undo-alt"></i><span><b>۷ روز ضمانت</b><small>بازگشت کالا</small></span></div>
+  <div><i class="fas fa-credit-card"></i><span><b>پرداخت امن</b><small>درگاه مطمئن</small></span></div>
+  <div><i class="fas fa-headset"></i><span><b>پشتیبانی</b><small>همراه شما هستیم</small></span></div>
+</section>
 
+<section class="container category-section">
+  <div class="section-heading"><div><span class="section-kicker">انتخاب سریع</span><h2>دسته‌بندی‌های محبوب</h2></div><button class="text-btn" data-scroll="#products">همه محصولات <i class="fas fa-arrow-left"></i></button></div>
+  <div class="category-grid">
+    <button class="category-card category-men" data-category="men"><span>مردانه</span><small>استایل روز</small></button>
+    <button class="category-card category-women" data-category="women"><span>زنانه</span><small>انتخاب‌های خاص</small></button>
+    <button class="category-card category-child" data-category="child"><span>بچگانه</span><small>برای کوچولوها</small></button>
+    <button class="category-card category-digital" data-category="digital"><span>دیجیتال</span><small>تکنولوژی روز</small></button>
+    <button class="category-card category-beauty" data-category="beauty"><span>زیبایی</span><small>مراقبت و زیبایی</small></button>
+  </div>
+</section>
 
-        <div class="progress"></div>
-    </section>
-	
-	<main id="main">
-	    <article id="content">
-		  <div class="content-container">
-		     <div class="dress">
-			    <div class="dress-item">
-				    <a href="#">
-					  <img src="images/product/1.jpg" alt="">
-					    <h4>لباس مجلسی اول</h4>
-						  <p><span>120,000</span> تومان</p>
-						</a>
-                          </div>
-                         <div class="dress-item">
-                           <a href="#">
-                             <img src="images/product/2.jpg" alt="">
-                          <h4>لباس مجلسی دوم</h4>
-						  <p><span>120,000</span> تومان</p>
-						</a>
-                          </div>
-                         <div class="dress-item">
-                           <a href="#">
-                            <img src="images/product/3.jpg" alt="">
-                              <h4>لباس مجلسی سوم</h4>
-                             <p><span>120,000</span>تومان</p>
-                            </a>
-                          </div>
-                          <div class="dress-item">
-                         <a href="#">
-                          <img src="images/product/4.jpg" alt="">
-                          <h4>لباس مجلسی چهارم</h4>	
-                          <p><span>120,000</span>تومان</p>
-                           </a>
-                         </div>
-  					</div>
+<section id="offers" class="offers-section">
+  <div class="container">
+    <div class="deal-head"><div><span class="section-kicker">فقط برای مدت محدود</span><h2>پیشنهاد شگفت‌انگیز</h2></div><div class="countdown"><span>تا پایان پیشنهاد</span><b id="countdown">02:14:36</b></div></div>
+    <div class="deal-grid" id="dealGrid"></div>
+  </div>
+</section>
 
-             <div class="best-selling-men">
-                <div class="header-title">
-                  <h2>پرفروشترین مردانه</h2>
-                   <a href="#">مشاهده همه</a>
-                   </div>
-				   
-				   <div class="selling-men-product">
-                        <div class="selling-item">
-                            <a href="">
-                                <img src="images/product/men/1.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">320,000</p>
-                                <p><span>280,000</span>تومان</p>
-                            </a>
-                        </div>
-						<div class="selling-item">
-                            <a href="">
-                                <img src="images/product/men/2.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">280,000</p>
-                                <p><span>210,000</span>تومان</p>
-                            </a>
-                        </div>
-						<div class="selling-item">
-                            <a href="">
-                                <img src="images/product/men/3.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">420,000</p>
-                                <p><span>250,000</span>تومان</p>
-                            </a>
-                        </div>
-						<div class="selling-item">
-                            <a href="">
-                                <img src="images/product/men/4.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-                    </div>
-					
-					</div>
-					
-					<div id="cosmetic">
-                    <a href="">
-                        <h2>آرایشی و بهداشتی</h2>
-                        <img src="images/product/Cosmetics.jpg" alt="">
-                    </a>
-                </div>
-				
-				<div id="best-selling-girl">
-                    <div class="header-title">
-                        <h2>پر فروش ترین زنانه</h2>
-                        <a href="">مشاهده همه</a>
-                    </div>
-					
-					<div class="selling-girl-product">
-                        <div class="selling-item">
-                            <a href="">
-                                <img src="images/product/girl/1.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-						<div class="selling-item">
-                            <a href="">
-                                <img src="images/product/girl/2.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-						<div class="selling-item">
-                            <a href="">
-                                <img src="images/product/girl/3.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-						<div class="selling-item">
-                            <a href="">
-                                <img src="images/product/girl/4.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-                    </div>
-					
-					</div>
-					
-					<div class="top-brand">
-					  <div class="header-title>
-					    <h2>برترین برندها</h2>
-						  <a href="">مشاهده همه</a>
-						</div>
-                    
-                        <div class="row align-items">
-                        <div class="brand-item">
-                            <img src="images/product/brands/1.jpg" alt="">
-                        </div>
-                        <div class="brand-item">
-                            <img src="images/product/brands/2.png" alt="">
-                        </div>
-                        <div class="brand-item">
-                            <img src="images/product/brands/3.jpg" alt="">
-                        </div>
-                        <div class="brand-item">
-                            <img src="images/product/brands/4.png" alt="">
-                        </div>
-                        <div class="brand-item">
-                            <img src="images/product/brands/5.png" alt="">
-                        </div>
-                        <div class="brand-item">
-                            <img src="images/product/brands/6.png" alt="">
-                        </div>
-                    </div>
+<section id="products" class="container products-section">
+  <div class="section-heading"><div><span class="section-kicker">ویترین اشکان‌شاپ</span><h2>محصولات منتخب</h2></div><div class="view-tools"><button class="filter-btn active" data-filter="all">همه</button><button class="filter-btn" data-filter="popular">محبوب</button><button class="filter-btn" data-filter="new">جدیدترین</button><button class="filter-btn" data-filter="discount">تخفیف‌دار</button></div></div>
+  <div class="shop-layout">
+    <aside class="filters" id="filters"><div class="filter-head"><h3>فیلتر محصولات</h3><button id="clearFilters">پاک کردن</button></div><label>دسته‌بندی</label><select id="categoryFilter"><option value="all">همه دسته‌ها</option><option value="men">مردانه</option><option value="women">زنانه</option><option value="child">بچگانه</option><option value="digital">دیجیتال</option><option value="beauty">زیبایی</option></select><label>حداکثر قیمت</label><input id="priceFilter" type="range" min="50000" max="10000000" step="50000" value="10000000"><output id="priceOutput">تا ۱۰,۰۰۰,۰۰۰ تومان</output><label class="check-row"><input type="checkbox" id="discountOnly"> فقط تخفیف‌دار</label></aside>
+    <div class="products-area"><div class="products-toolbar"><span id="resultCount">محصولات</span><select id="sortSelect" aria-label="مرتب‌سازی"><option value="featured">مرتب‌سازی: پیشنهادی</option><option value="priceAsc">ارزان‌ترین</option><option value="priceDesc">گران‌ترین</option><option value="rating">بیشترین امتیاز</option></select><button class="mobile-filter" id="mobileFilter"><i class="fas fa-sliders-h"></i> فیلتر</button></div><div class="product-grid" id="productGrid"></div><div class="empty-state" id="emptyState" hidden><i class="fas fa-search"></i><h3>محصولی پیدا نشد</h3><p>فیلترها یا عبارت جستجو را تغییر بده.</p></div></div>
+  </div>
+</section>
 
+<section id="brands" class="container brands-section"><div class="section-heading"><div><span class="section-kicker">انتخاب‌های معتبر</span><h2>برندهای محبوب</h2></div></div><div class="brands-grid"> <div><img src="images/product/brands/1.jpg" alt="برند منتخب" loading="lazy"></div><div><img src="images/product/brands/2.png" alt="برند منتخب" loading="lazy"></div><div><img src="images/product/brands/3.jpg" alt="برند منتخب" loading="lazy"></div><div><img src="images/product/brands/4.png" alt="برند منتخب" loading="lazy"></div><div><img src="images/product/brands/5.png" alt="برند منتخب" loading="lazy"></div><div><img src="images/product/brands/6.png" alt="برند منتخب" loading="lazy"></div></div></section>
 
-                </div>
+<section id="why-us" class="why-section"><div class="container why-grid"><div><span class="section-kicker">تجربه‌ای متفاوت</span><h2>فروشگاهی که برای انتخاب آسان‌تر ساخته شده</h2><p>رابط کاربری سریع، جستجوی هوشمند، فیلترهای کاربردی و دستیار خرید به تو کمک می‌کنند بدون سردرگمی به انتخاب مناسب برسی.</p></div><div class="why-cards"><article><i class="fas fa-search"></i><h3>جستجوی سریع</h3><p>محصول، برند و دسته‌بندی را در چند لحظه پیدا کن.</p></article><article><i class="fas fa-heart"></i><h3>علاقه‌مندی‌ها</h3><p>انتخاب‌های دوست‌داشتنی‌ات را برای بعد نگه دار.</p></article><article><i class="fas fa-balance-scale"></i><h3>مقایسه محصول</h3><p>قبل از خرید، گزینه‌ها را کنار هم ببین.</p></article><article><i class="fas fa-robot"></i><h3>دستیار خرید</h3><p>برای پیدا کردن محصول مناسب سؤال بپرس.</p></article></div></div></section>
 
-                 <div class="best-selling-child">
-                    <div class="header-title">
-                        <h2>پر فروش ترین بچه گانه</h2>
-                        <a href="">مشاهده همه</a>
-                    </div>
+<section id="blog" class="container blog-section"><div class="section-heading"><div><span class="section-kicker">مجله اشکان‌شاپ</span><h2>راهنمای خرید</h2></div><button class="text-btn">مشاهده همه</button></div><div class="blog-grid"><article><img src="images/product/banner-ads.jpg" alt="راهنمای انتخاب محصول" loading="lazy"><div><span>راهنمای خرید</span><h3>چطور محصول مناسب را با چند معیار ساده انتخاب کنیم؟</h3><p>راهنمای کوتاه برای یک خرید آگاهانه و کم‌ریسک.</p></div></article><article><img src="images/slider2.jpg" alt="استایل و مد" loading="lazy"><div><span>مد و استایل</span><h3>چطور برای هر موقعیت استایل مناسب بسازیم؟</h3><p>نکته‌هایی کاربردی برای انتخاب لباس و اکسسوری.</p></div></article><article><img src="images/slider3.jpg" alt="خرید دیجیتال" loading="lazy"><div><span>دیجیتال</span><h3>قبل از خرید گجت چه چیزهایی را بررسی کنیم؟</h3><p>از مشخصات فنی تا ارزش خرید و خدمات پس از فروش.</p></div></article></div></section>
 
-                 <div class="row">
-                   <div class="child-item">
-                            <a href="">
-                                <img src="images/product/child/1.jpg" alt="">
-                                <h3>پیراهن مشکی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-                        <div class="child-item">
-                            <a href="">
-                                <img src="images/product/child/2.jpg" alt="">
-                                <h3>پیراهن مشکی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-                         <div class="child-item">
-                            <a href="">
-                                <img src="images/product/child/3.jpg" alt="">
-                                <h3>پیراهن مشکی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-                          	<div class="child-item">
-                            <a href="">
-                                <img src="images/product/child/4.jpg" alt="">
-                                <h3>پیراهن مشکلی</h3>
-                                <p class="price-item">220,000</p>
-                                <p><span>120,000</span>تومان</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <aside id="sidebar">
-            <div class="sidebar-container">
-                <div class="last-product">
-                    <div class="sidebar-title">
-                        <h3>آخرین محصولات</h3>
-                    </div>
+<section class="container smart-tools" aria-label="ابزارهای خرید">
+  <div class="smart-tool"><i class="fas fa-bolt"></i><div><strong>پیشنهاد هوشمند</strong><span>بر اساس محصولات محبوب</span></div><button data-smart="popular">مشاهده</button></div>
+  <div class="smart-tool"><i class="fas fa-history"></i><div><strong>آخرین بازدیدها</strong><span>محصولات دیده‌شده شما</span></div><button data-open-recent>مشاهده</button></div>
+  <div class="smart-tool"><i class="fas fa-balance-scale"></i><div><strong>مقایسه کالا</strong><span>تا ۴ محصول را کنار هم</span></div><button data-open-compare>مقایسه</button></div>
+  <div class="smart-tool"><i class="fas fa-gift"></i><div><strong>کد تخفیف</strong><span>تخفیف را در سبد اعمال کن</span></div><button data-open-coupon>ثبت کد</button></div>
+</section>
 
-                     <div class="row align-items">
-                        <div class="last-product-item">
-                            <a href="">
-                                <img src="images/product/shoe/1.jpg" alt="">
-                                <h4>کفش اول</h4>
-                            </a>
-                        </div>
-                        <div class="last-product-item">
-                            <a href="">
-                                <img src="images/product/shoe/2.jpg" alt="">
-                                <h4>کفش دوم</h4>
-                            </a>
-                        </div>
-                        <div class="last-product-item">
-                            <a href="">
-                                <img src="images/product/shoe/3.jpg" alt="">
-                                <h4>کفش سوم</h4>
-                            </a>
-                        </div>
-                        <div class="last-product-item">
-                            <a href="">
-                                <img src="images/product/shoe/4.jpg" alt="">
-                                <h4>کفش چهارم</h4>
-                            </a>
-                        </div>
-                    </div>
+<section class="container recent-section" id="recentSection" hidden><div class="section-heading"><div><span class="section-kicker">بازگشت سریع</span><h2>آخرین بازدیدهای شما</h2></div><button class="text-btn" data-clear-recent>پاک کردن</button></div><div class="mini-product-grid" id="recentGrid"></div></section>
 
-                </div>
+<section class="container compare-section" id="compareSection" hidden><div class="section-heading"><div><span class="section-kicker">انتخاب آگاهانه</span><h2>مقایسه محصولات</h2></div><button class="text-btn" data-clear-compare>پاک کردن مقایسه</button></div><div id="compareTableWrap"></div></section>
+</main>
 
-                <div class="recent-bestseller">
-                    <div class="sidebar-title">
-                        <h3>محصولات پر فروش اخیر</h3>
-                    </div>
-                     <div class="row align-items">
-                        <div class="recent-item">
-                            <a href="">
-                                <img src="images/product/bestsellers/1.jpg" alt="">
-                                <h4>محصول اول</h4>
-                            </a>
-                        </div>
-                        <div class="recent-item">
-                            <a href="">
-                                <img src="images/product/bestsellers/2.jpg" alt="">
-                                <h4>محصول دوم</h4>
-                            </a>
-                        </div>
-                        <div class="recent-item">
-                            <a href="">
-                                <img src="images/product/bestsellers/3.jpg" alt="">
-                                <h4>محصول سوم</h4>
-                            </a>
-                        </div>
-                          <div class="recent-item">
-                            <a href="">
-                                <img src="images/product/bestsellers/4.jpg" alt="">
-                                <h4>محصول چهارم</h4>
-                            </a>
-                        </div>
-                    </div>
+<footer id="contact" class="footer"><div class="container footer-grid"><div><img class="footer-logo" src="images/logo.svg" alt="اشکان‌شاپ"><p>اشکان‌شاپ یک تجربه فروشگاهی مدرن، سریع و کاربرمحور برای انتخاب و خرید آنلاین است.</p><div class="socials"><a href="#" aria-label="اینستاگرام"><i class="fab fa-instagram"></i></a><a href="#" aria-label="تلگرام"><i class="fab fa-telegram"></i></a><a href="#" aria-label="یوتیوب"><i class="fab fa-youtube"></i></a><a href="#" aria-label="لینکدین"><i class="fab fa-linkedin"></i></a></div></div><div><h3>خدمات مشتریان</h3><a href="faq.html">پرسش‌های متداول</a><a href="returns.html">شرایط بازگشت</a><a href="privacy.html">حریم خصوصی</a><a href="terms.html">شرایط استفاده</a></div><div><h3>دسترسی سریع</h3><a href="index.html#products">فروشگاه</a><a href="index.html#offers">تخفیف‌ها</a><a href="index.html#brands">برندها</a><a href="blog.html">مجله</a><a href="about.html">درباره ما</a><a href="contact.html">تماس با ما</a><a href="account.html">حساب کاربری</a><a href="compare.html">مقایسه محصولات</a><a href="tracking.html">پیگیری سفارش</a></div><div><h3>خبرنامه</h3><p>برای دریافت پیشنهادهای ویژه ایمیل خود را ثبت کن.</p><form class="newsletter" id="newsletter"><input type="email" placeholder="ایمیل شما" required><button>عضویت</button></form><small>با ثبت ایمیل، قوانین حریم خصوصی را می‌پذیرید.</small></div></div><div class="container footer-bottom"><span>© ۱۴۰۵ اشکان‌شاپ — تمامی حقوق محفوظ است.</span><span>طراحی شده با تمرکز بر سرعت، دسترس‌پذیری و تجربه کاربری</span></div></footer>
 
-                </div>
-       
-                   <div class="laptop>
-                      <div class="sidebar-title">
-                        <h3>لپ تاپ</h3>	
-                       </div>
-                         <div class="row align-items">
-                           <div class="laptop-item">
-                             <a href="">
-							   <img src="images/product/laptop/1.jpg" alt="">
-                                <h4>لپ تاپ اول</h4>
-                            </a>
-                        </div>
-						 <div class="laptop-item">
-						    <a href="">
-							    <img src="images/product/laptop/2.jpg" alt="">
-								  <h4>لپ تاپ  دوم</h4>
-							</a>
-                         </div>
-                          <div class="laptop-item">
-                             <a href="">
-                                <img src="images/product/laptop/3.jpg" alt="">
-                                  <h4>لپ تاپ سوم</h4>		
-                           </a>
-                           </div>
-                          <div class="laptop-item">
-                             <a href="">
-                               <img src="images/product/laptop/4.jpg" alt="">
-                                   <h4>لپ تاپ چهارم</h4>	
-                            </a>
-                         </div>
-                      </div>
-                   </div>
-                  
-                    <div class="sidebar-ads">
-                    <img src="images/product/banner-ads.jpg" alt="">
-                </div>
+<button class="back-top" id="backTop" aria-label="بازگشت به بالا"><i class="fas fa-arrow-up"></i></button>
+<button class="chat-launcher" id="chatLauncher" aria-label="دستیار خرید"><i class="fas fa-robot"></i><span>دستیار خرید</span></button>
+<section class="chatbot" id="chatbot" aria-label="دستیار خرید" aria-hidden="true"><header><div><i class="fas fa-robot"></i><strong>دستیار اشکان</strong><small>پاسخ‌گوی خرید شما</small></div><button id="chatClose" aria-label="بستن"><i class="fas fa-times"></i></button></header><div class="chat-messages" id="chatMessages"><div class="bot-msg">سلام! 👋 من دستیار خرید اشکان‌شاپ هستم. دنبال چه محصولی می‌گردی؟ می‌تونی مثلاً بگی «لپ‌تاپ»، «محصول تخفیف‌دار» یا «چیزی تا ۵۰۰ هزار تومان».</div></div><div class="quick-prompts"><button>محصولات تخفیف‌دار</button><button>لپ‌تاپ</button><button>تا ۵۰۰ هزار</button></div><form id="chatForm"><input id="chatInput" placeholder="پیام خود را بنویسید..." autocomplete="off"><button aria-label="ارسال"><i class="fas fa-paper-plane"></i></button></form></section>
 
-            </div>
-        </aside>
-    </main>
- 
+<aside class="drawer" id="cartDrawer" aria-hidden="true"><div class="drawer-head"><h2>سبد خرید</h2><button id="cartClose" aria-label="بستن"><i class="fas fa-times"></i></button></div><div id="cartItems" class="cart-items"></div><div class="shipping-progress"><span id="shippingMessage">برای ارسال رایگان بیشتر خرید کنید.</span><div><i id="shippingProgress"></i></div></div><div class="coupon-row"><input id="couponInput" placeholder="کد تخفیف"><button id="applyCoupon">اعمال</button></div><div class="cart-summary"><div><span>جمع کالاها</span><b id="cartTotal">۰ تومان</b></div><button class="primary-btn" id="checkoutBtn">ادامه و ثبت سفارش <i class="fas fa-arrow-left"></i></button></div></aside>
 
-
-         <section class="suggested">
-        <div class="container">
-            <div class="row">
-                <h1 class="suggested-title">تخفیف های فوق العاده</h1>
-                <div class="suggested-product">
-                    <div class="suggested-product-item">
-                        <a href="#">
-                            <span class="offer">فقط امروز</span>
-                            <img src="images/product/suggest/1.jpg" alt="">
-                            <div>
-                                <h3>تیشرت مردانه</h3>
-                                <span>85000</span>
-                            </div>
-                            <h4> <span>45000</span>تومان</h4>
-                        </a>
-                    </div>
-                 <div class="suggested-product-item">
-                        <a href="#">
-                            <span class="offer">فقط امروز</span>
-                            <img src="images/product/suggest/2.jpg" alt="">
-                            <div>
-                                <h3>ساعت </h3>
-                                <span>12000</span>
-                            </div>
-                            <h4> <span>80000</span>تومان</h4>
-                        </a>
-                    </div>
-                    <div class="suggested-product-item">
-                        <a href="#">
-                            <span class="offer">فقط امروز</span>
-                            <img src="images/product/suggest/3.jpg" alt="">
-                            <div>
-                                <h3>هدفون</h3>
-                                <span>60000</span>
-                            </div>
-                            <h4> <span>30000</span>تومان</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <section class="favorite">
-        <div class="container">
-            <div class="row">
-                <div class="favorite-outline">
-                    <div class="favorite-content">
-                        <div class="favorite-item">
-                            <a href="">
-                                <img src="images/slideshow/1.jpg" alt="">
-                                <div class="eye-heart">
-                                    <h4>
-                                        <i class="fas fa-eye"></i>
-                                        <span>120,000</span>
-                                        بازدید
-                                    </h4>
-                                    <h4>
-                                        <i class="fas fa-heart"></i>
-                                        <span>85</span>
-                                    </h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="favorite-item">
-                            <a href="">
-                                <img src="images/slideshow/2.jpg" alt="">
-                                <div class="eye-heart">
-                                    <h4>
-                                        <i class="fas fa-eye"></i>
-                                        <span>120,000</span>
-                                        بازدید
-                                    </h4>
-                                    <h4>
-                                        <i class="fas fa-heart"></i>
-                                        <span>85</span>
-                                    </h4>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                 <div class="favorite-title">
-                        <h1>محبوب ترین محصولات</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row justify-content">
-                <div class="footer-about">
-                    <h3>درباره ما</h3>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته</p>
-                </div>
-                <div class="footer-social">
-                    <h3>دنبال کنید</h3>
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-news-letter">
-                    <h3>دریافت آخرین اخبار</h3>
-                    <form>
-                        <input type="text" placeholder="ایمیل خود را وارد کنید ...">
-                        <button>عضویت</button>
-                    </form>
-                </div>
-            </div>
-
-             <div class="row mt-2 pt-2 border-top justify-content">
-                <div class="footer-customer-services">
-                    <h3>خدمات مشتریان</h3>
-                    <ul>
-                        <li><a href="">پرسش های متداول</a></li>
-                        <li><a href="">حریم خصوصی</a></li>
-                        <li><a href="">گارانتی بازگشت وجه</a></li>
-                        <li><a href="">شرایط استفاده</a></li>
-                    </ul>
-                </div>
-                 <div class="footer-quick-access">
-                     <h3>دسترسی سریع</h3>
-                      <ul>
-                        <li><a href="">خانه</a></li>
-                        <li><a href="">درباره ما</a></li>
-                        <li><a href="">تماس با ما</a></li>
-                        <li><a href="">فروش </a></li> 
-                     </ul>
-                     </div>
-
-                      <div class="footer-license">
-                         <div class="information">
-                          <h4>تهران-پرند-بلوار ابن سینا-فاز 4 مسکن میثم نهاجا</h4>
-                          <h4>ashkan.mataee@yahoo.com</h4>			
-                      </div>
-                      <div class="license">
-                       <img src="images/f1.png" alt="">					  
-                       <img src="images/f2.png" alt="">					  
-                       <img src="images/f3.png" alt="">					  
-                              							 
-				   </div>
-                 </div>
-				 
-			<div class="footer-logo">
-               <img src="images/logo.svg" alt="">			
-			     </div>
-				 
-			</div>
-   
-         </div>
-     </footer>
-   
-  <script src="js/app.js"></script>
-   <script src="js/all.min.js"></script>
-
-</body>
-
-</html>   
+<aside class="drawer favorites-drawer" id="favoritesDrawer" aria-hidden="true"><div class="drawer-head"><h2>علاقه‌مندی‌ها</h2><button id="favoritesClose" aria-label="بستن"><i class="fas fa-times"></i></button></div><div id="favoriteItems" class="cart-items"></div></aside>
+<div class="modal checkout-modal" id="checkoutModal"><div class="modal-box checkout-box" id="checkoutBox"></div></div>
+<div class="modal coupon-modal" id="couponModal"><div class="modal-box"><button class="close-modal" data-close-coupon><i class="fas fa-times"></i></button><h2>کد تخفیف</h2><p>یکی از کدهای نمایشی زیر را امتحان کنید:</p><div class="coupon-list"><button data-coupon="WELCOME10"><b>WELCOME10</b><span>۱۰٪ تخفیف</span></button><button data-coupon="ASHKAN20"><b>ASHKAN20</b><span>۲۰٪ تخفیف</span></button><button data-coupon="FREESHIP"><b>FREESHIP</b><span>ارسال رایگان</span></button></div></div></div>
+<div class="install-prompt" id="installPrompt" hidden><i class="fas fa-mobile-alt"></i><div><strong>اشکان‌شاپ را نصب کن</strong><span>برای دسترسی سریع‌تر روی دستگاهت</span></div><button id="installBtn">نصب</button><button id="installDismiss" aria-label="بستن"><i class="fas fa-times"></i></button></div>
+<div class="cookie-bar" id="cookieBar" hidden><span><i class="fas fa-shield-alt"></i> برای تجربه بهتر از ذخیره‌سازی محلی سبد و تنظیمات استفاده می‌کنیم.</span><button id="cookieAccept">متوجه شدم</button></div>
+<div class="overlay" id="overlay"></div>
+<div class="toast" id="toast" role="status"></div>
+<div class="modal" id="modal"><div class="modal-box" id="modalBox"></div></div>
+<script src="js/all.min.js"></script><script src="js/app.js"></script>
+</body></html>
